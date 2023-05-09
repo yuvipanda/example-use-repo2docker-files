@@ -3,7 +3,13 @@ channels:
 
 dependencies:
   - jupyterhub-singleuser>=3.0,<4.0
-
+  # Explicitly set python version here, so it does not depend on the version of repo2docker used
+  - python=3.10
+  # Setup the packages we want
+  - numpy
+  - scipy
+  - matplotlib
+  - seaborn
   # Everyone wants to use nbgitpuller for everything, so let's do that
   - nbgitpuller=1.1.*
   # Install packages from pip
