@@ -28,8 +28,8 @@ jobs:
         DOCKER_REGISTRY: "quay.io"
 
         # Uncomment and modify the following line with your image name.
-        IMAGE_NAME: "yuvipanda/example-inherit-from-community-image"
-
+        IMAGE_NAME: "yuvipanda/example-use-repo2docker-files"
+        REPO_DIR: "/srv/repo"
     # Lets us monitor disks getting full as images get bigger over time
     - name: Show how much disk space is left
       run: df -h
