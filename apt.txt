@@ -1,0 +1,7 @@
+# Add latext related stuff
+pandoc
+texlive-xetex
+texlive-fonts-recommended
+# provides FandolSong-Regular.otf for rendering some chinese characters
+texlive-lang-chinese
+texlive-plain-generic
